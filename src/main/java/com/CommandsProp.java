@@ -9,7 +9,7 @@ public class CommandsProp {
 
     public CommandsProp() {
         this.properties = new Properties();
-        String fileName = "Commands.properties";
+        String fileName = "res/Commands.properties";
         try (InputStream input = getClass().getClassLoader().getResourceAsStream(fileName)) {
             properties.load(input);
         } catch (IOException e) {
