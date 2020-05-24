@@ -4,6 +4,9 @@ import app.LocaleExplorer;
 
 import java.util.Locale;
 
+/**
+ * DisplayLocales class: displays all available locales
+ */
 public class DisplayLocales extends Command{
     public DisplayLocales(String command) {
         super(command);

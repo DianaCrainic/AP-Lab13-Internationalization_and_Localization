@@ -5,6 +5,10 @@ import com.*;
 import java.text.MessageFormat;
 import java.util.*;
 
+/**
+ *  main class LocaleExplore
+ *  -inside this class, read commands from the keyboard and execute them.
+ */
 public class LocaleExplorer {
     private final String baseName = "Messages";
     private Locale locale;

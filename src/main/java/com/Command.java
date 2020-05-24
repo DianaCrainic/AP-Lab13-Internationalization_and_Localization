@@ -3,6 +3,10 @@ package com;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+/**
+ *
+ * Command class : an abstract class which is responsible with commands
+ */
 @Getter
 @AllArgsConstructor
 public abstract class Command {

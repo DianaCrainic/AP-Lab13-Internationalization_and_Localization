@@ -9,6 +9,10 @@ import java.util.Currency;
 import java.util.Date;
 import java.util.Locale;
 
+
+/**
+ * Info class displays information about the current or a specific locale
+ */
 public class Info extends Command {
     public Info(String command, String arg) {
         super(command, arg);

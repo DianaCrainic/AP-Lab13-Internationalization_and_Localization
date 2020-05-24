@@ -4,6 +4,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * CommandProp class: responsible with:
+ * mapping the command names to corresponding classes using an external
+ * file Commands.properties.
+ */
 public class CommandsProp {
     private Properties properties;
 

@@ -2,6 +2,9 @@ package com;
 
 import app.LocaleExplorer;
 
+/**
+ * SetLocale class: sets the application current locale.
+ */
 public class SetLocale extends Command{
     public SetLocale(String command, String arg) {
         super(command, arg);
